@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+main {
+  flex : 1;
+  padding : 20px;
+}
+
+/* body, p*/
+body {
+  text-align: center;
+  background-color: gray;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+p {
+  margin : 30px;
+}
+
+/* card */
+.container1-card-title {
+  display        : flex;
+  justify-content: center; 
+  align-items    : center;
+  font-size      : 5.2rem;
+  text-decoration: none;
+}
+.container1-card-subtitle {
+  display        : flex;
+  justify-content: center; 
+  align-items    : center;
+  font-size      : 3.2rem;
+  text-decoration: none;
+}
+.hero {
+  margin-bottom : 20px;
+}
+.card {
+  width       : 95%;
+  height      : auto;
+  margin-left : 30px;
+  margin-top  : 30px;
+  background-color: yellow;
+}
+.container1-card-text {
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+  font-size       : 2.2rem;
+  text-decoration: none;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.sellCard {
+  width       : 95%;
+  height      : auto;
+  margin-top  : 30px;
+  background-color: yellow;
+}
+
+/* a */
+a {
+  text-decoration-line: none;
+}
+a:link {
+  color : black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color : black;
+}
+a:active {
+  color : black;
+}
+
+/* nav */
+nav {
+  display: flex;
+  background-color: blueviolet;
+  height: 60px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+nav > a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+nav > a:first-child {	
+  margin-left: 5px;
+}
+
+/* button*/
+button {
+
+  margin-top   : 30px;
+  margin-right : 20px;
+  width        : 300px;
+  height       : 50px;
+  cursor: pointer;
+
+  border-radius: 20px;
+  font-size : 1.5rem;
+}
+
+/* footer */
+footer {
+  font-size: auto;
+  text-align      : center;
+  align-items     : center;
+  justify-content : center;
+  
+  bottom : 0;
+  left   : 0;
+  right  : 0;
+  height : 50px;
+  padding: 13px;
+  
+  color: black;
+  
+  border-top      : 1px solid black;
+  background-color: aquamarine;
+}
+
+section {
+  height: 100%;
+}
